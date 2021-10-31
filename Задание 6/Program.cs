@@ -35,7 +35,7 @@ namespace Задание_6
                 
             }
             else
-                Console.WriteLine("меньше 0 тебе не может быть");
+                Console.WriteLine("от 0 до 100, никак иначе");
         }
     }
 }
