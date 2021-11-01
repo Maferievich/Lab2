@@ -34,7 +34,7 @@ namespace Задание_4
                 {
                     precos -= slg;
                 }
-                Console.WriteLine(t);
+                
             }
             Console.WriteLine("cos(x)= " + precos);
         }
