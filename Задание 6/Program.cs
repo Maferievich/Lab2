@@ -7,10 +7,10 @@ namespace Задание_6
         static void Main(string[] args)
         {
             Console.Write("Введие число от 0 до 100: ");
-            int a;
-            a = int.Parse(Console.ReadLine());
-            for (int i = 0; i <= 100; i++)
-            {
+            int i;
+            i = int.Parse(Console.ReadLine());
+            
+            
                 if ((i >= 0) & (i <= 100))
                 {
                     if ((i >= 5) & (i < 15))
@@ -31,12 +31,12 @@ namespace Задание_6
                             Console.WriteLine(i + " год");
                         if ((i % 10 > 1) & (i % 10 < 5))
                             Console.WriteLine(i + " года");
-                        if ((i % 10 == 0) & (i % 10 >= 5))
+                        if ((i % 10 == 0) | (i % 10 >= 5))
                             Console.WriteLine(i + " лет");
                     }
 
                 }
-            }
+            
         }
     }
 }
